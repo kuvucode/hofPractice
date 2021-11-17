@@ -35,10 +35,7 @@
 
       });
       describe('numbers', function() {
-        var testNumbers;
-        beforeEach(function() {
-          testNumbers = cloneObject(numbers);
-        });
+        var testNumbers = [5, 10, 15, 25, 20]
         describe('multiplesOfFive', function() {
           underscoreMethods('each', true, function() {
             multiplesOfFive(testNumbers);
